@@ -1,9 +1,6 @@
 """
-Copyright © Krypton 2019-Present - https://github.com/kkrypt0nn (https://krypton.ninja)
-Description:
-🐍 A simple template to start to code your own and personalized Discord bot in Python
-
-Version: 6.2.0
+Template cog file for creating new cogs
+Author: Elad Tal
 """
 
 from discord.ext import commands
@@ -28,9 +25,8 @@ class Template(commands.Cog, name="template"):
         :param context: The application command context.
         """
         # Do your stuff here
-
+        print("Test command executed.")
         # Don't forget to remove "pass", I added this just because there's no content in the method.
-        pass
 
 
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.

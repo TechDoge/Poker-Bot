@@ -1,9 +1,6 @@
 """
-Copyright © Krypton 2019-Present - https://github.com/kkrypt0nn (https://krypton.ninja)
-Description:
-🐍 A simple template to start to code your own and personalized Discord bot in Python
-
-Version: 6.2.0
+The owner cog contains commands that can only be used by the bot owner.
+Author: Elad Tal
 """
 
 import discord

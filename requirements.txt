@@ -2,3 +2,6 @@ aiohttp
 aiosqlite
 discord.py
 python-dotenv
+matplotlib
+pillow
+requests
